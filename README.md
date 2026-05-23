@@ -1,14 +1,106 @@
-# AI-Powered Demand Forecasting & Inventory Optimization
 
-Synthetic retail inventory analytics project using Python forecasting logic, Snowflake-style warehousing, Power BI dashboard planning, and AI-style inventory recommendations.
+---
 
-## What is included
-- `data/products.csv`: 800 product records.
-- `data/retail_inventory_sales.csv`: 30,000 store-product inventory and sales records.
-- `data/forecast_inventory_recommendations.csv`: reorder points and 30-day demand projections.
-- `sql/snowflake_schema.sql`: warehouse schema and KPI view.
-- `scripts/forecast_reorder_pipeline.py`: machine learning forecast starter pipeline.
-- `docs/power_bi_dashboard_blueprint.md`: Power BI pages and DAX measures.
+# AI Demand Forecasting & Inventory Optimization
 
-## Portfolio angle
-This project demonstrates forecasting, inventory optimization, reorder logic, stockout risk monitoring, and operational dashboarding across stores, regions, and product categories.
+AI-driven supply chain analytics platform built to forecast inventory demand, monitor stockout risk, optimize reorder planning, and improve operational visibility through automated dashboards and forecasting workflows.
+
+---
+
+## Tech Stack
+
+Python | Streamlit | SQL | Snowflake | Power BI | Airbyte | Plotly
+
+---
+
+## Dashboard Preview
+
+(Add dashboard screenshots or GIFs here)
+
+---
+
+## Business Problem
+
+Retail and supply chain teams often face limited visibility into demand fluctuations, inventory exposure, and stockout risk due to disconnected operational datasets and manual reporting processes.
+
+---
+
+## Solution
+
+Developed an AI-powered inventory intelligence platform integrating synthetic retail and operational datasets into forecasting workflows, centralized dashboards, and automated reporting systems for supply chain decision-making.
+
+---
+
+## Key Features
+
+- Demand forecasting workflows
+- Inventory optimization analytics
+- Automated ETL pipelines
+- Reorder threshold monitoring
+- Stockout risk analysis
+- Regional sales performance tracking
+- Executive operational dashboards
+
+---
+
+## Architecture Overview
+
+Retail Sales Data
+      ↓
+Python ETL Pipelines
+      ↓
+Snowflake Warehouse
+      ↓
+Power BI / Streamlit Dashboards
+      ↓
+AI Forecasting Insights
+
+---
+
+## KPI Metrics
+
+- Forecast Accuracy
+- Inventory Turnover
+- Reorder Thresholds
+- Stockout Risk
+- Regional Product Demand
+- Sales Trend Analysis
+
+---
+
+## Repository Structure
+
+/data
+/dashboard_app
+/sql
+/etl
+/assets
+/docs
+
+---
+
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/AI-Demand-Forecasting-Inventory-Optimization.git
+cd AI-Demand-Forecasting-Inventory-Optimization
+
+Create Virtual Environment
+
+Mac/Linux:
+
+python3 -m venv venv
+source venv/bin/activate
+
+Windows:
+
+python -m venv venv
+venv\Scripts\activate
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run the Dashboard
+streamlit run app.py
