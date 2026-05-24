@@ -15,7 +15,7 @@ Python | Streamlit | SQL | Snowflake | Power BI | Airbyte | Plotly
 
 ## Dashboard Preview
 
-(Add dashboard screenshots or GIFs here)
+<img width="1512" height="982" alt="Inventory SS" src="https://github.com/user-attachments/assets/88d67539-b208-44c0-a62f-43de4a796043" />
 
 ---
 
